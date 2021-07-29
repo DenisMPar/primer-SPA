@@ -71,6 +71,8 @@ body {
   }
 }
 .main {
+  width: 100%;
+  height: 100vh;
 }
 @media (min-width: 769px) {
   .main {
@@ -91,7 +93,7 @@ body {
 }
 .menu__cont {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
 }
 @media (min-width: 769px) {
@@ -111,9 +113,13 @@ body {
   background-color: #393939;
   border: none;
 }
+.content__container {
+  height: 100%;
+}
+
 .main__cont-section-inbox,
 .main__cont-section-sent {
-  min-height: 512px;
+  height: 100%;
   padding: 22px 25px;
 }
 @media (min-width: 769px) {

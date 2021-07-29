@@ -14,5 +14,8 @@ function main() {
   window.addEventListener("load", () => {
     handleRoute(location.pathname);
   });
+  window.onpopstate = () => {
+    handleRoute(location.pathname);
+  };
 }
 main();
